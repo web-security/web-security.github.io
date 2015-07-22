@@ -1,3 +1,109 @@
 body {
-  background: pink;
+  margin: 0;
+  padding: 0;
+  color: #060A08;
+  font-family: 'TrasandinaLight';
+  font-size: 17px;
+  font-weight: 100;
+  line-height: 1.45;
+  text-rendering: optimizeLegibility;
+  background: #fff;
 }
+
+.grid {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.green {
+  color: #96FF8A;
+}
+
+.purple {
+  color: #220029;
+}
+
+section {
+  clear: both;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.hero {
+  width: 100%;
+  height: 460px;
+  background-image: url('img/birdseye_ILOVEYOU.png');
+  background-size: cover;
+}
+
+.importance {
+  margin: 100px auto;
+}
+
+.largeHeader {
+  font-family: 'Detroit 10 Inline', 'Knockout';
+  font-weight: normal;
+  font-size: 82px;
+  line-height: 1;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.hero__largeHeader {
+  margin: 61px auto;
+  padding: 55px 20px 35px 20px;
+  width: 640px;
+  color: #fff;
+  letter-spacing: -0.05em;
+  border: 2px solid #fff;
+}
+
+.section__pre {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.section__pre-subhead {
+  margin: 0;
+  padding: 0;
+}
+
+.section__pre-title {
+  display: inline-block;
+  color: #9ff495;
+  font-family: 'Detroit 10 Inline', 'TrasandinaBold', sans-serif;
+  font-size: 38px;
+  margin-bottom: 5px;
+}
+
+.section__pre-subhead {
+  font-family: 'TrasandinaBook-Italic', sans-serif;
+  font-weight: normal;
+  font-size: 23px;
+}
+
+.section__image--left {
+  width: 100%;
+}
+
+.section__content--right {
+  box-sizing: border-box;
+  padding: 20px; 
+}
+
+.section__border-icon {
+  display: block;
+  font-family: helvetica;
+  font-style: normal;
+  font-weight: 100;
+  width: 240px;
+  margin: 0 auto;
+  padding-top: 30px;
+  font-size: 18px;
+  font-weight: 100;
+  color: #d0d0d0;
+  text-align: center;
+  border-top: 1px solid #eee;
+}
+
+
