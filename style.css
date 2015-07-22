@@ -1,3 +1,47 @@
+/* Colors */ 
+
+.green {
+  color: #96FF8A;
+}
+
+.dark-purple {
+  color: #220029;
+}
+
+.purple {
+  color: #1d128e;
+}
+
+.teal {
+  color: #295563;
+}
+
+/* Utility Classes */
+
+.bg__code-shape {
+  opacity: .05;
+  z-index: -4;
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+}
+
+.bg__code-shape--right {
+  top: 1180px;
+  right: 0;
+
+  background-image: url('img/code-shape-1.png');
+  background-size: cover;
+}
+
+.bg__code-shape--left {
+  top: 300px;
+  left: 0;
+
+  background-image: url('img/code-shape-2.png');
+  background-size: cover;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -15,13 +59,6 @@ body {
   margin: 0 auto;
 }
 
-.green {
-  color: #96FF8A;
-}
-
-.purple {
-  color: #220029;
-}
 
 section {
   clear: both;
@@ -36,7 +73,7 @@ section {
   background-size: cover;
 }
 
-.importance {
+.importance, .cyber-attacks {
   margin: 100px auto;
 }
 
@@ -70,10 +107,11 @@ section {
 
 .section__pre-title {
   display: inline-block;
+  margin-bottom: 5px;
   color: #9ff495;
   font-family: 'Detroit 10 Inline', 'TrasandinaBold', sans-serif;
   font-size: 38px;
-  margin-bottom: 5px;
+  letter-spacing: -0.05em;
 }
 
 .section__pre-subhead {
@@ -105,5 +143,43 @@ section {
   text-align: center;
   border-top: 1px solid #eee;
 }
+
+.section__content-quote {
+  margin: 0;
+  padding: 0;
+  padding-left: 210px;
+  padding-bottom: 20px;
+  font-family: 'TrasandinaMedium', sans-serif;
+  font-size: 19px;
+}
+
+.section__content-quote pre {
+  float: left;
+  margin: 0;
+  margin-left: -210px;
+  color: #1d128e;
+  font-family: 'TrasandinaMedium', sans-serif;
+  font-size: 144px;
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+.section__content-quote-percent {
+  display: block;
+  float: right;
+  margin-top: 7px;
+  padding-left: 7px;
+  
+  font-family: 'TrasandinaExtraLight', sans-serif;
+  font-size: 48px;
+}
+
+.section__content-quote-attribution {
+
+}
+
+
+
+
 
 
