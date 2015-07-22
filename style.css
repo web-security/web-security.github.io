@@ -108,16 +108,12 @@ section {
 }
 
 .section__content-meta {
-  margin-top: 100px;
+  margin-top: 40px;
 }
 
 .section__content--right {
   box-sizing: border-box;
   padding: 20px; 
-}
-
-.section__content--centered {
-
 }
 
 .section__border-icon {
@@ -144,11 +140,18 @@ section {
   font-size: 19px;
 }
 
+.section__content-quote p {
+  font-family: 'TrasandinaLight';
+  font-size: 17px;
+  font-weight: 100;
+  line-height: 1.45; 
+}
+
 .section__content-quote pre {
   float: left;
   margin: 0;
   margin-left: -210px;
-  color: #1d128e;
+
   font-family: 'TrasandinaBlack', sans-serif;
   font-size: 144px;
   line-height: 1;
@@ -164,8 +167,58 @@ section {
   font-size: 48px;
 }
 
+.section__content--centered .section__content-quote {
+  margin-top: 40px;
+  padding-left: 150px;
+}
+
+.section__content--centered .section__content-quote pre {
+  font-size: 96px;
+  margin-left: -150px;
+}
+
+.section__content--centered .section__content-quote-percent {
+  font-size: 38px;
+}
+
 .section__content-quote-attribution {
 
+}
+
+.section__content-inner--two-sided  {
+  clear: both;
+  overflow: hidden;
+  margin-left: 150px;
+
+}
+
+.section__content-inner--two-sided i {
+  display: inline-block;
+  width: 50%;
+  float: left;
+  text-align: center;
+  vertical-align: text-bottom;
+  line-height: 100px;
+}
+
+.section__content-inner--two-sided .ss-males {
+  font-size: 76px;
+}
+
+.section__content-inner--two-sided .ss-males::after {
+  content: '>';
+  display: block;
+  float: right;
+  margin-right: -32px;
+
+  font-family: 'TrasandinaBold', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+}
+
+.section__content-inner--two-sided .ss-females {
+  font-size: 51px;
 }
 
 .section__content-quote--full-width {
@@ -178,9 +231,7 @@ section {
   margin: 0 auto;
   float: none;
   text-align: center;
-
-  font-family: 'TrasandinaBlack', sans-serif;
-  font-size:160px;
+  font-size: 160px;
 }
 
 .section__content-quote--full-width pre .section__content-quote-percent {
@@ -188,7 +239,7 @@ section {
 }
 
 .section__content-quote--green pre {
-  color: #96FF8A;
+  color: #060A08;
 }
 
 /* Colors */ 
