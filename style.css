@@ -1,20 +1,3 @@
-/* Colors */ 
-
-.green {
-  color: #96FF8A;
-}
-
-.dark-purple {
-  color: #220029;
-}
-
-.purple {
-  color: #1d128e;
-}
-
-.teal {
-  color: #295563;
-}
 
 /* Utility Classes */
 
@@ -55,7 +38,7 @@ body {
 }
 
 .grid {
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -124,9 +107,17 @@ section {
   width: 100%;
 }
 
+.section__content-meta {
+  margin-top: 100px;
+}
+
 .section__content--right {
   box-sizing: border-box;
   padding: 20px; 
+}
+
+.section__content--centered {
+
 }
 
 .section__border-icon {
@@ -158,9 +149,8 @@ section {
   margin: 0;
   margin-left: -210px;
   color: #1d128e;
-  font-family: 'TrasandinaMedium', sans-serif;
+  font-family: 'TrasandinaBlack', sans-serif;
   font-size: 144px;
-  letter-spacing: -0.04em;
   line-height: 1;
 }
 
@@ -169,7 +159,7 @@ section {
   float: right;
   margin-top: 7px;
   padding-left: 7px;
-  
+
   font-family: 'TrasandinaExtraLight', sans-serif;
   font-size: 48px;
 }
@@ -178,6 +168,42 @@ section {
 
 }
 
+.section__content-quote--full-width {
+  padding-left: 0;
+}
+
+.section__content-quote--full-width pre {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  float: none;
+  text-align: center;
+
+  font-family: 'TrasandinaBlack', sans-serif;
+  font-size:160px;
+}
+
+.section__content-quote--full-width pre .section__content-quote-percent {
+
+}
+
+.section__content-quote--green pre {
+  color: #96FF8A;
+}
+
+/* Colors */ 
+
+.green {
+  color: #96FF8A;
+}
+
+.dark-purple {
+  color: #220029;
+}
+
+.purple {
+  color: #1d128e;
+}
 
 
 
