@@ -8,7 +8,7 @@ body {
   font-family: 'TrasandinaLight';
   font-size: 17px;
   font-weight: normal;
-  line-height: 1.45;
+  line-height: 1.5;
   text-rendering: optimizeLegibility;
   background-color: #fff;
 }
@@ -83,7 +83,6 @@ section {
 }
 
 .section__pre-paragraph {
-  width: 60%;
   margin: 40px auto 60px auto;
 }
 
@@ -149,9 +148,15 @@ section {
   display: inline-block;
   margin-left: 150px;
   margin-top: 25px;
-
   color: #8f8f8f;
   font-family: 'TrasandinaLight-Italic', 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.section__content-quote-small-note--centered {
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .section__content-quote p {
