@@ -1,0 +1,64 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3063064, 2015-07-22T22:18:13-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: TrasandinaLight-Italic by TipoType
+ * URL: http://www.myfonts.com/fonts/tipotype/trasandina/light-italic/
+ * 
+ * Webfont: TrasandinaLight by TipoType
+ * URL: http://www.myfonts.com/fonts/tipotype/trasandina/light/
+ * 
+ * Webfont: TrasandinaBlack by TipoType
+ * URL: http://www.myfonts.com/fonts/tipotype/trasandina/black/
+ * 
+ * Webfont: TrasandinaBook-Italic by TipoType
+ * URL: http://www.myfonts.com/fonts/tipotype/trasandina/book-italic/
+ * 
+ * Webfont: Detroit10Inline by Match & Kerosene
+ * URL: http://www.myfonts.com/fonts/matchandkerosene/detroit/10/
+ * 
+ * Webfont: Detroit05Base by Match & Kerosene
+ * URL: http://www.myfonts.com/fonts/matchandkerosene/detroit/5/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3063081
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright (c) 2011 by Alex Sheldon for Match and Kerosene. All rights reserved.
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3063064
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright (c) 2015 by Fernando Diaz. All rights reserved.
+ * 
+ * © 2015 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+
+@import url("//hello.myfonts.net/count/2ebd29");
+@import url("//hello.myfonts.net/count/2ebd2f");
+
+  
+@font-face {font-family: 'Detroit10Inline';src: url('../fonts/2EBD29_0_0.eot');src: url('../fonts/2EBD29_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2EBD29_0_0.woff2') format('woff2'),url('../fonts/2EBD29_0_0.woff') format('woff'),url('../fonts/2EBD29_0_0.ttf') format('truetype');}
+
+  
+@font-face {font-family: 'TrasandinaLight-Italic';src: url('../fonts/2EBD2F_0_0.eot');src: url('../fonts/2EBD2F_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2EBD2F_0_0.woff2') format('woff2'),url('../fonts/2EBD2F_0_0.woff') format('woff'),url('../fonts/2EBD2F_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'TrasandinaLight';src: url('../fonts/2EBD2F_1_0.eot');src: url('../fonts/2EBD2F_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2EBD2F_1_0.woff2') format('woff2'),url('../fonts/2EBD2F_1_0.woff') format('woff'),url('../fonts/2EBD2F_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'TrasandinaMedium';src: url('../fonts/2EBD2F_2_0.eot');src: url('../fonts/2EBD2F_2_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2EBD2F_2_0.woff2') format('woff2'),url('../fonts/2EBD2F_2_0.woff') format('woff'),url('../fonts/2EBD2F_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'TrasandinaBlack';src: url('../fonts/2EBD2F_3_0.eot');src: url('../fonts/2EBD2F_3_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2EBD2F_3_0.woff2') format('woff2'),url('../fonts/2EBD2F_3_0.woff') format('woff'),url('../fonts/2EBD2F_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'TrasandinaBook-Italic';src: url('../fonts/2EBD2F_4_0.eot');src: url('../fonts/2EBD2F_4_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2EBD2F_4_0.woff2') format('woff2'),url('../fonts/2EBD2F_4_0.woff') format('woff'),url('../fonts/2EBD2F_4_0.ttf') format('truetype');}
+ 
