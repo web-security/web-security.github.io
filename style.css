@@ -75,14 +75,14 @@ section {
   font-family: 'Detroit10Inline', 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 84px;
-  line-height: 1.05;
+  line-height: 1;
   text-transform: uppercase;
   text-align: center;
 }
 
 .hero__largeHeader {
-  margin: 50px auto;
-  padding: 55px 20px 35px 20px;
+  margin: 67px auto;
+  padding: 30px 20px 40px 20px;
   width: 640px;
   color: #fff;
   letter-spacing: 0.01em;

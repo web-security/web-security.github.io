@@ -42,22 +42,23 @@
 /* @import must be at top of file, otherwise CSS will not work */
 
 @import url("//hello.myfonts.net/count/2ebd29");
+@import url("//hello.myfonts.net/count/2ebd2f");
 
   
 @font-face {font-family: 'Detroit10Inline';src: url('webfonts/2EBD29_0_0.eot');src: url('webfonts/2EBD29_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2EBD29_0_0.woff2') format('woff2'),url('webfonts/2EBD29_0_0.woff') format('woff'),url('webfonts/2EBD29_0_0.ttf') format('truetype');}
- 
-
-@import url("//hello.myfonts.net/count/2ebd18");
 
   
-@font-face {font-family: 'TrasandinaLight-Italic';src: url('webfonts/2EBD18_0_0.eot');src: url('webfonts/2EBD18_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2EBD18_0_0.woff2') format('woff2'),url('webfonts/2EBD18_0_0.woff') format('woff'),url('webfonts/2EBD18_0_0.ttf') format('truetype');}
+@font-face {font-family: 'TrasandinaLight-Italic';src: url('webfonts/2EBD2F_0_0.eot');src: url('webfonts/2EBD2F_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2EBD2F_0_0.woff2') format('woff2'),url('webfonts/2EBD2F_0_0.woff') format('woff'),url('webfonts/2EBD2F_0_0.ttf') format('truetype');}
  
   
-@font-face {font-family: 'TrasandinaLight';src: url('webfonts/2EBD18_1_0.eot');src: url('webfonts/2EBD18_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2EBD18_1_0.woff2') format('woff2'),url('webfonts/2EBD18_1_0.woff') format('woff'),url('webfonts/2EBD18_1_0.ttf') format('truetype');}
- 
-
-@font-face {font-family: 'TrasandinaBlack';src: url('webfonts/2EBD18_2_0.eot');src: url('webfonts/2EBD18_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2EBD18_2_0.woff2') format('woff2'),url('webfonts/2EBD18_2_0.woff') format('woff'),url('webfonts/2EBD18_2_0.ttf') format('truetype');}
+@font-face {font-family: 'TrasandinaLight';src: url('webfonts/2EBD2F_1_0.eot');src: url('webfonts/2EBD2F_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2EBD2F_1_0.woff2') format('woff2'),url('webfonts/2EBD2F_1_0.woff') format('woff'),url('webfonts/2EBD2F_1_0.ttf') format('truetype');}
  
   
-@font-face {font-family: 'TrasandinaBook-Italic';src: url('webfonts/2EBD18_3_0.eot');src: url('webfonts/2EBD18_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2EBD18_3_0.woff2') format('woff2'),url('webfonts/2EBD18_3_0.woff') format('woff'),url('webfonts/2EBD18_3_0.ttf') format('truetype');}
+@font-face {font-family: 'TrasandinaMedium';src: url('webfonts/2EBD2F_2_0.eot');src: url('webfonts/2EBD2F_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2EBD2F_2_0.woff2') format('woff2'),url('webfonts/2EBD2F_2_0.woff') format('woff'),url('webfonts/2EBD2F_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'TrasandinaBlack';src: url('webfonts/2EBD2F_3_0.eot');src: url('webfonts/2EBD2F_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2EBD2F_3_0.woff2') format('woff2'),url('webfonts/2EBD2F_3_0.woff') format('woff'),url('webfonts/2EBD2F_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'TrasandinaBook-Italic';src: url('webfonts/2EBD2F_4_0.eot');src: url('webfonts/2EBD2F_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2EBD2F_4_0.woff2') format('woff2'),url('webfonts/2EBD2F_4_0.woff') format('woff'),url('webfonts/2EBD2F_4_0.ttf') format('truetype');}
  
