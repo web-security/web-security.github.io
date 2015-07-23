@@ -1,52 +1,16 @@
-
-/* Utility Classes */
-
-.bg__code-shape {
-  opacity: .05;
-  z-index: -4;
-  position: absolute;
-  width: 1000px;
-  height: 1000px;
-}
-
-.bg__code-shape--right {
-  top: 2230px;
-  right: 0;
-
-  background-image: url('../img/code-shape-1.png');
-  background-size: cover;
-}
-
-.bg__code-shape--left {
-  top: 300px;
-  left: 0;
-
-  background-image: url('../img/code-shape-2.png');
-  background-size: cover;
-}
-
-.bg__code-shape--usa {
-  width: 740px;
-  height: 740px;
-  top: 2025px;
-  left: calc(50% - 360px);
-
-  background-image: url('../img/code-usa.png');
-  background-size: cover;
-}
-
 /* Styles */
 
 body {
   margin: 0;
   padding: 0;
+
   color: #060A08;
   font-family: 'TrasandinaLight';
   font-size: 17px;
   font-weight: normal;
   line-height: 1.45;
   text-rendering: optimizeLegibility;
-  background: #fff;
+  background-color: #fff;
 }
 
 .grid {
@@ -63,6 +27,7 @@ section {
 .hero {
   width: 100%;
   height: 460px;
+
   background-image: url('../img/birdseye_ILOVEYOU.png');
   background-size: cover;
 }
@@ -76,22 +41,23 @@ section {
   font-weight: 500;
   font-size: 84px;
   line-height: 1;
-  text-transform: uppercase;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .hero__largeHeader {
+  width: 640px;
   margin: 64px auto;
   padding: 30px 20px 48px 20px;
-  width: 640px;
+
   color: #fff;
   letter-spacing: 0.01em;
   border: 2px solid #fff;
 }
 
 .section__pre {
-  text-align: center;
   margin-bottom: 80px;
+  text-align: center;
 }
 
 .section__pre-subhead {
@@ -102,6 +68,7 @@ section {
 .section__pre-title {
   display: inline-block;
   margin-bottom: 6px;
+
   color: #9ff495;
   font-family: 'Detroit10Inline', 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 38px;
@@ -110,9 +77,9 @@ section {
 }
 
 .section__pre-subhead {
-  font-family: 'TrasandinaBook-Italic', sans-serif;
-  font-weight: normal;
+  font-family: 'TrasandinaBook-Italic', 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 23px;
+  font-weight: normal;
 }
 
 .section__pre-paragraph {
@@ -129,21 +96,22 @@ section {
 }
 
 .section__content--right {
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 20px; 
 }
 
 .section__border-icon {
   display: block;
-  font-family: helvetica;
-  font-style: normal;
-  font-weight: 100;
   width: 240px;
   margin: 0 auto;
   padding-top: 30px;
-  font-size: 18px;
-  font-weight: 100;
+
   color: #d0d0d0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 100;
   text-align: center;
   border-top: 1px solid #eee;
 }
@@ -153,7 +121,8 @@ section {
   padding: 0;
   padding-left: 210px;
   padding-bottom: 20px;
-  font-family: 'TrasandinaMedium', sans-serif;
+
+  font-family: 'TrasandinaMedium', 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 19px;
 }
 
@@ -164,6 +133,7 @@ section {
 
 .section__content-quote--jumbotron {
   padding: 80px 0 100px 0;
+
   color: #fff;
   font-family: 'Detroit10Inline', 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 80px;
@@ -179,20 +149,13 @@ section {
   display: inline-block;
   margin-left: 150px;
   margin-top: 25px;
-  font-family: 'TrasandinaLight-Italic';
+
   color: #8f8f8f;
-}
-
-.section__content-quote--centered::before {
-  /*content: '“';*/
-}
-
-.section__content-quote--centered::after {
-  /*content: '”';*/
+  font-family: 'TrasandinaLight-Italic', 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 .section__content-quote p {
-  font-family: 'TrasandinaLight';
+  font-family: 'TrasandinaLight', 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 17px;
   font-weight: 100;
   line-height: 1.45; 
@@ -203,7 +166,7 @@ section {
   margin: 0;
   margin-left: -210px;
 
-  font-family: 'TrasandinaBlack', sans-serif;
+  font-family: 'TrasandinaBlack', 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 144px;
   line-height: 1;
 }
@@ -214,7 +177,7 @@ section {
   margin-top: 7px;
   padding-left: 5px;
 
-  font-family: 'TrasandinaLight', sans-serif;
+  font-family: 'TrasandinaLight', 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 48px;
 }
 
@@ -224,29 +187,27 @@ section {
 }
 
 .section__content--centered .section__content-quote pre {
-  font-size: 96px;
   margin-left: -150px;
+
+  font-size: 96px;
 }
 
 .section__content--centered .section__content-quote-percent {
   font-size: 38px;
 }
 
-.section__content-quote-attribution {
-
-}
-
 .section__content-inner--two-sided  {
   clear: both;
   overflow: hidden;
-  margin-left: 150px;
   margin-top: 10px;
+  margin-left: 150px;
 }
 
 .section__content-inner--two-sided i {
   display: inline-block;
-  width: 50%;
   float: left;
+  width: 50%;
+
   text-align: center;
   line-height: 95px;
 }
@@ -261,7 +222,7 @@ section {
   content: 'vs.';
   margin-right: -28px;
 
-  font-family: 'TrasandinaLight', sans-serif;
+  font-family: 'TrasandinaLight', 'Open Sans', Helvetica, Arial, sans-serif;
   font-style: normal;
   font-size: 36px;
 }
@@ -279,29 +240,33 @@ section {
   width: 200px;
   margin: 0 auto;
   float: none;
-  text-align: center;
   font-size: 160px;
+  text-align: center;
 }
 
 
-/* Colors */ 
+/* Utility Classes */
 
-.green {
-  color: #96FF8A;
+.bg__code-shape {
+  position: absolute;
+  z-index: -4;
+  width: 1000px;
+  height: 1000px;
+  opacity: .05;
 }
 
-.dark-purple {
-  color: #220029;
+.bg__code-shape--right {
+  top: 2230px;
+  right: 0;
+
+  background-image: url('../img/code-shape-1.png');
+  background-size: cover;
 }
 
-.purple {
-  color: #1d128e;
+.bg__code-shape--left {
+  top: 300px;
+  left: 0;
+
+  background-image: url('../img/code-shape-2.png');
+  background-size: cover;
 }
-
-.hideme {
-  opacity:0;
-}
-
-
-
-
