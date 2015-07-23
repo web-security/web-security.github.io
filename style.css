@@ -10,7 +10,7 @@
 }
 
 .bg__code-shape--right {
-  top: 1180px;
+  top: 2230px;
   right: 0;
 
   background-image: url('img/code-shape-1.png');
@@ -25,13 +25,25 @@
   background-size: cover;
 }
 
+.bg__code-shape--usa {
+  width: 740px;
+  height: 740px;
+  top: 2025px;
+  left: calc(50% - 360px);
+
+  background-image: url('img/code-usa.png');
+  background-size: cover;
+}
+
+/* Styles */
+
 body {
   margin: 0;
   padding: 0;
   color: #060A08;
   font-family: 'TrasandinaLight';
   font-size: 17px;
-  font-weight: 100;
+  font-weight: normal;
   line-height: 1.45;
   text-rendering: optimizeLegibility;
   background: #fff;
@@ -41,7 +53,6 @@ body {
   width: 90%;
   margin: 0 auto;
 }
-
 
 section {
   clear: both;
@@ -62,19 +73,19 @@ section {
 
 .largeHeader {
   font-family: 'Detroit 10 Inline', 'Knockout';
-  font-weight: normal;
-  font-size: 82px;
-  line-height: 1;
+  font-weight: 500;
+  font-size: 84px;
+  line-height: 1.05;
   text-transform: uppercase;
   text-align: center;
 }
 
 .hero__largeHeader {
-  margin: 61px auto;
+  margin: 50px auto;
   padding: 55px 20px 35px 20px;
   width: 640px;
   color: #fff;
-  letter-spacing: -0.05em;
+  letter-spacing: 0.01em;
   border: 2px solid #fff;
 }
 
@@ -90,10 +101,11 @@ section {
 
 .section__pre-title {
   display: inline-block;
-  margin-bottom: 5px;
+  margin-bottom: 6px;
   color: #9ff495;
   font-family: 'Detroit 10 Inline', 'TrasandinaBold', sans-serif;
   font-size: 38px;
+  font-weight: 500;
   letter-spacing: -0.05em;
 }
 
@@ -101,6 +113,11 @@ section {
   font-family: 'TrasandinaBook-Italic', sans-serif;
   font-weight: normal;
   font-size: 23px;
+}
+
+.section__pre-paragraph {
+  width: 60%;
+  margin: 40px auto 60px auto;
 }
 
 .section__image--left {
@@ -140,6 +157,38 @@ section {
   font-size: 19px;
 }
 
+.section__content-quote--centered {
+  padding-left: 0;
+  text-align: center;
+}
+
+.section__content-quote--jumbotron {
+  padding: 80px 0;
+  font-size: 80px;
+  color: #fff;
+  font-family: 'Detroit 10 Inline', 'TrasandinaLight', sans-serif;
+  letter-spacing: 0.01em;
+  background-image: url('img/sunset_RavMonE.png');
+  background size: 1200px auto;
+  background-position: center -100px;
+}
+
+.section__content-quote-small-note {
+  display: inline-block;
+  margin-left: 150px;
+  margin-top: 25px;
+  font-family: 'TrasandinaLight-Italic';
+  color: #8f8f8f;
+}
+
+.section__content-quote--centered::before {
+  /*content: '“';*/
+}
+
+.section__content-quote--centered::after {
+  /*content: '”';*/
+}
+
 .section__content-quote p {
   font-family: 'TrasandinaLight';
   font-size: 17px;
@@ -161,14 +210,14 @@ section {
   display: block;
   float: right;
   margin-top: 7px;
-  padding-left: 7px;
+  padding-left: 5px;
 
-  font-family: 'TrasandinaExtraLight', sans-serif;
+  font-family: 'TrasandinaLight', sans-serif;
   font-size: 48px;
 }
 
 .section__content--centered .section__content-quote {
-  margin-top: 40px;
+  margin-top: 50px;
   padding-left: 150px;
 }
 
@@ -189,7 +238,7 @@ section {
   clear: both;
   overflow: hidden;
   margin-left: 150px;
-
+  margin-top: 10px;
 }
 
 .section__content-inner--two-sided i {
@@ -197,8 +246,7 @@ section {
   width: 50%;
   float: left;
   text-align: center;
-  vertical-align: text-bottom;
-  line-height: 100px;
+  line-height: 95px;
 }
 
 .section__content-inner--two-sided .ss-males {
@@ -206,15 +254,14 @@ section {
 }
 
 .section__content-inner--two-sided .ss-males::after {
-  content: '>';
   display: block;
   float: right;
-  margin-right: -32px;
+  content: 'vs.';
+  margin-right: -28px;
 
-  font-family: 'TrasandinaBold', sans-serif;
+  font-family: 'TrasandinaLight', sans-serif;
   font-style: normal;
-  font-weight: normal;
-  font-size: 80px;
+  font-size: 36px;
 }
 
 .section__content-inner--two-sided .ss-females {
@@ -234,13 +281,6 @@ section {
   font-size: 160px;
 }
 
-.section__content-quote--full-width pre .section__content-quote-percent {
-
-}
-
-.section__content-quote--green pre {
-  color: #060A08;
-}
 
 /* Colors */ 
 
