@@ -188,7 +188,6 @@ section {
 
 .section__content--centered .section__content-quote pre {
   margin-left: -150px;
-
   font-size: 96px;
 }
 
@@ -220,7 +219,7 @@ section {
   display: block;
   float: right;
   content: 'vs.';
-  margin-right: -28px;
+  margin-right: -20px;
 
   font-family: 'TrasandinaLight', 'Open Sans', Helvetica, Arial, sans-serif;
   font-style: normal;
