@@ -25,14 +25,26 @@ section {
 }
 
 a, a:visited {
-  color: #2cf415;
   color: #21e50b;
+  color: #27f411;
+  color: #9ff495;
+  text-decoration: none;
   -webkit-transition: all .25s ease;
   transition: all .25s ease;
 }
 
 a:hover {
   color: #1dc809;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: #000;
+  background: #d31516;
+}
+
+::selection {
+  color: #fff; 
+  background: #27f411;
 }
 
 .hero {
@@ -134,6 +146,7 @@ a:hover {
 
   font-family: 'TrasandinaMedium', 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 19px;
+  line-height: 1.42;
 }
 
 .section__content-quote--centered {
@@ -143,6 +156,7 @@ a:hover {
 
 .section__content-quote--jumbotron {
   padding: 80px 0 100px 0;
+  margin-bottom: 80px;
 
   color: #fff;
   font-family: 'Detroit10Inline', 'Open Sans', Helvetica, Arial, sans-serif;
@@ -164,7 +178,7 @@ a:hover {
 }
 
 .section__content-quote-small-note--centered {
-  margin-top: 60px;
+  margin-top: 80px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -199,7 +213,7 @@ a:hover {
 
 .section__quote-attribution {
   display: inline-block;
-  margin-top: 12px;
+  margin-top: 15px;
   font-family: 'TrasandinaLight', 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 17px;
 }
@@ -269,6 +283,10 @@ a:hover {
 
 /* Utility Classes */
 
+.text--centered {
+  text-align: center;
+}
+
 .bg__code-shape {
   position: absolute;
   z-index: -4;
@@ -278,7 +296,7 @@ a:hover {
 }
 
 .bg__code-shape--right {
-  top: 2160px;
+  top: 2120px;
   right: 0;
 
   background-image: url('../img/code-shape-1.png');
